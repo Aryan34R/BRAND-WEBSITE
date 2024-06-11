@@ -1,0 +1,210 @@
+body{
+    background-color: #e9e3e3;
+}
+.head{
+    padding: 20px 40px 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    letter-spacing: 3px;
+    font-family: tablet-gothic, sans-serif;
+    font-size: 10px;   
+    font-weight: 700; 
+    opacity: 0;
+    transition-delay: 4s;
+    transition: transition-delay opacity;
+}
+.head6{
+    opacity: 1;
+}
+.head1{
+    cursor: pointer;
+}
+.head3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.head2{
+    color: red;
+}
+.head3b{
+    margin-bottom: 4px;
+}
+.main{
+    display: flex;
+
+}
+.main1{
+    font-size: 7px;
+    width: 6%;
+    writing-mode: vertical-lr;
+    margin-top: 80%;
+    transform: rotate(180deg);
+}
+.main2{
+    width:47% ;
+}
+.main2a{
+    width: 60%;
+    font-weight: 700;
+    opacity: 0.3;
+    color: #1e1e1e;
+    font-size: 22px;
+    line-height: 24px;
+    font-family: titling-gothic-fb-wide, sans-serif;
+    text-transform: uppercase;
+    position: relative;
+    right: 40px;
+    bottom: 10px;
+    opacity: 0;
+    transition-delay: 1s;
+    transition: transition-delay opacity 2s ;
+}
+.head1{
+    opacity: 1;
+}
+.main2b{
+    width: 190%;
+    justify-content: left;
+    text-align: left;
+    color: red;
+    font-family: titling-gothic-fb-wide, sans-serif;
+    font-size: 130px;
+    line-height: 100px;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: relative;
+    right: -9%;
+    letter-spacing: 70px;
+    z-index: +1;
+    opacity: 0;
+    transition: opacity 2s;
+}
+.brand{
+   opacity: 1;
+}
+.main2c{
+  justify-content: center;
+  font-family: tablet-gothic, sans-serif;
+  letter-spacing: 3px;
+  font-size: 10px;   
+  font-weight: 700; 
+  position: relative;
+  top: 6%;
+  right: -20%;
+  opacity: 0;
+  transition-delay: 2s;
+  transition: transition-delay opacity;
+}
+.logo{
+    opacity: 1;
+}
+.main2ca span{
+    color: red;
+}
+.main2d{
+    position: relative;
+    top: 7%;
+    right: -10%;
+    letter-spacing: 5px;
+    margin-top: 12px;
+    margin-bottom: 20px;
+    color: #1e1e1e;
+    font-style:  titling-gothic-fb-wide, sans-serif;
+    font-size: 50px;
+    line-height: 45px;
+    font-weight: 900;
+    opacity: 0;
+    transition-delay: 2.3s;
+    transition: transition-delay opacity;
+}
+.head2{
+    opacity: 1;
+}
+.main2e{
+   position: relative;
+  top: 9%;
+  right: -20%;
+  word-spacing: 2px;
+  padding-right: 80px;
+    color: #1e1e1e;
+    font-family: titling-gothic-fb-wide, sans-serif;
+    margin: 0px 0px 10px;
+    padding: 0px 20px 0px 0px;
+    font-size: 20px;
+    line-height: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+    opacity: 0;
+    transition-delay: 2.6s;
+    transition: transition-delay opacity;
+}
+.head3{
+    opacity: 1;
+}
+.main2f{
+    position: relative;
+    right: -20%;
+    top:12%;
+    font-family: titling-gothic-fb-wide, sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    opacity: 0;
+    transition-delay: 3s;
+    transition: transition-delay opacity;
+}
+.head4{
+    opacity: 1;
+}
+.span1{
+    opacity: 0.3;
+}
+.span2{
+    opacity: 0.1;
+}
+.main3{
+    background-position: 50% 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0;
+    transition-delay: 1.5s;
+    transition:transition-delay opacity ;
+}
+.image{
+    opacity: 1;
+}
+.main3 img{
+    margin-right: 200px;
+}
+.foot{
+    display: flex;
+    width: 200%;
+    justify-content: space-between;
+    position: relative;
+    top: 5%;
+    opacity: 0;
+    transition-delay: 3.3s;
+    transition: transition-delay opacity;
+}
+.head5{
+    opacity: 1;
+}
+.foot1{
+    font-size: 8px;
+    font-weight: 700;
+    margin-right:90px;
+    margin-top: -35px;
+    font-family: tablet-gothic, sans-serif;
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+}
+.foot2{
+    font-size: 15px;
+    font-weight: 700;
+    font-family: tablet-gothic, sans-serif;
+    color: red;
+    text-decoration: underline;
+    line-height: 2px;
+    cursor: pointer;
+}
